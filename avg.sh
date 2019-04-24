@@ -1,8 +1,5 @@
-echo "enter 5 numbers"
-read a
-read b
-read c
-read d
-read e
-avg =`expr(($a+$b+$c+$d+$e)/5);
-echo avg
+echo "Enter five integers "
+read a b c d e
+sum=`expr $a + $b + $c + $d + $e`
+avg=`expr $sum / 5`
+echo $avg
